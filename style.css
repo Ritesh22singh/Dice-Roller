@@ -1,0 +1,93 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9; /* Light grey background */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333; /* Dark text */
+}
+
+/* Container Styling */
+#container {
+    background: #ffffff; /* White background for contrast */
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    text-align: center;
+    width: 350px;
+}
+
+/* Heading */
+h1 {
+    font-size: 2em;
+    color: #007bff; /* Blue color */
+    margin-bottom: 20px;
+}
+
+/* Label */
+label {
+    font-size: 1em;
+    color: #555; /* Medium gray for labels */
+}
+
+/* Input Field */
+input[type="number"] {
+    width: 80%;
+    padding: 10px;
+    font-size: 1em;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Button Styling */
+button {
+    background-color: #007bff; /* Blue background */
+    color: white; /* White text */
+    border: none;
+    padding: 12px 20px;
+    font-size: 1em;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Dice Image Container */
+#diceImage {
+    margin-top: 20px;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    background-color: #eaeaea; /* Light grey placeholder */
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    font-weight: bold;
+    color: #777; /* Placeholder text color */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive Design */
+@media (max-width: 400px) {
+    #container {
+        width: 90%;
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 1.8em;
+    }
+}
